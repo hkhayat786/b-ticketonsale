@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f5f7f8;
+}
+html{
+    font-size: 15px;
+}
+/* top notification */
+.top-1{
+    background-color: rgb(223, 247, 255);
+    margin-bottom: 2rem;
+}
+.top-1 p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+/* navigation starts */
+.wrapper{
+    width: 100%;
+    background-color: #fff;
+    padding: 1%;
+}
+#mynavigation{
+    background: none;
+    border: 0;
+}
+#mynavigation .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+}
+.my-add-blue{
+    color: rgb(0, 110, 255);
+}
+
+#mynavigation ul li a {
+    font-weight: 600;
+}
+/* contact area starts here */
+.question-box{
+    width: 80%;
+    background-color: rgb(235, 235, 235);
+    margin: 0 auto;
+    border-top: 5px solid rgb(0, 140, 255) ;
+}
+.question-box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.question-box p{
+    font-size: 1.1rem;
+    padding: 0 12%;
+}
+.question-box button{
+    width: 180px;
+    height: 40px;
+    color: rgb(0, 140, 255);
+    border: 2px solid rgb(0, 140, 255);
+    background: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}
+.enquiry h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.enquiry p{
+    font-size: 1.1rem;
+}
+.enquiry button{
+    width: 180px;
+    height: 40px;
+    color: rgb(0, 140, 255);
+    border: 2px solid rgb(0, 140, 255);
+    background: none;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.enquiry .fa{
+    font-size:1rem ;
+    margin-right: 5px;
+}
